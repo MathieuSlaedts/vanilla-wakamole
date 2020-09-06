@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Wakamole</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="src/styles.css"
+    />
+    <meta charset="UTF-8" />
+  </head>
+
+  <body>
+    <div id="infos">
+      <h1>Level: <span id="level">1</span></h1>
+      <p><strong>Player's lives:</strong> <span id="player-lives">5</span></p>
+      <p><strong>Moles remaining:</strong> <span id="moles-lives">6</span></p>
+    </div>
+    <div id="board">
+      <div class="holes">
+        <div class="hole hole-0"></div>
+        <div class="hole hole-1"></div>
+        <div class="hole hole-2"></div>
+        <div class="hole hole-3"></div>
+        <div class="hole hole-4"></div>
+        <div class="hole hole-5"></div>
+      </div>
+      <div id="moles">
+        <button class="mole mole-0" data-mole="0">Mole 0</button>
+        <button class="mole mole-1" data-mole="1">Mole 1</button>
+        <button class="mole mole-2" data-mole="2">Mole 2</button>
+        <button class="mole mole-3" data-mole="3">Mole 3</button>
+        <button class="mole mole-4" data-mole="4">Mole 4</button>
+        <button class="mole mole-5" data-mole="5">Mole 5</button>
+      </div>
+    </div>
+
+    <script src="src/index.js"></script>
+  </body>
+</html>
